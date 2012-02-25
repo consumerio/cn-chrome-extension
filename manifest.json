@@ -1,22 +1,13 @@
 {
- "background": {
-   "scripts": ["background.js"]
- },
- "browser_action": {
-   "default_icon": "icon-128.png"
- },
- "name": "Consumer Notebook",
- "description": "Consumer Notebook",
- "homepage_url": "http://consumernotebook.com/",
- "icons": {
-     "16": "icon-16.png",
-     "48": "icon-48.png",
-     "128": "icon-128.png" 
- },
- "permissions": [
-     "tabs",
-     "http://*/",
-     "https://*/"
- ],
- "version": "0.1"
+  "name": "Consumer Notebook",
+  "version": "1.0",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs", "http://*/*"
+  ],
+  "browser_action": {
+    "name": "Consumer Notebook",
+    "default_icon": "logo.png"
+  },
+  "content_security_policy": "default-src 'none'; script-src 'self'"
 }
