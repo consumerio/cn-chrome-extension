@@ -9,4 +9,4 @@ How To Install Locally
 
 TODO: write up instructions.
 
-..`Michael Komitee` http://twitter.com/komitee
+.. _`Michael Komitee`: http://twitter.com/komitee
