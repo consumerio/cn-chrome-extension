@@ -9,5 +9,8 @@
     "name": "Consumer Notebook",
     "default_icon": "logo.png"
   },
-  "content_security_policy": "default-src 'none'; script-src 'self'"
+  "content_security_policy": "default-src 'none'; script-src 'self'",
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" }
 }
